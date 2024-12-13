@@ -1,0 +1,11 @@
+1. Incorrect step selection
+added this in the prompt: - Justify each action and the object class it related to based on the context.
+2. Reasoning should include which class to select; then Slice condition selected the third best
+3. Even though enough information is provided in gather observations, it repeats gathering (gather_observations again only if it's previously not mentioned)
+
+
+4. Missing in top 5 observations, class is too rare
+
+
+5. In prune says conclusion but the next step ends up being action? or the conclusion is stated as step 3 gather observations
+6.
